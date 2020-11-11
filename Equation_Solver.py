@@ -15,7 +15,9 @@
 import cv2
 import os
 import numpy
-import PIL.Image, PIL.ImageTk
+from PIL import Image
+from PIL import ImageTk
+# import PIL.Image, PIL.ImageTk
 
 from tkinter import *
 from tkinter.filedialog import askopenfilename
