@@ -1,4 +1,4 @@
-# [SMRTTECH 4AI3: Final Project - Equation Solver] By 2 Chongers and a Lemon
+# [SMRTTECH 4AI3: Final Project - Equation Solver] By DWOO Chongers and a Lemon
 # Side Notes:
 # - 'Symbols' the AI model will be trained to identify: 1 2 3 4 5 6 7 8 9 0 + - x ÷ = . ( )
 #   > How difficult can these 'simple' arithmitics be? As hard as complex BEDMAS problems?
