@@ -6,6 +6,8 @@
 # - Image will be converted to either grayscale or monochrome
 #   > Is it possible for all input methods to achieve the data type for the image?
 
+#test push
+
 # Necessary Libraries for HMI
 from tkinter import *
 from tkinter.filedialog import askopenfilename
