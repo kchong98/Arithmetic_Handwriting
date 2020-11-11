@@ -20,6 +20,13 @@ import PIL.Image, PIL.ImageTk
 from tkinter import *
 from tkinter.filedialog import askopenfilename
 
+# Drawing a dot to canvas
+def paint(event):
+    python_green = "#476042"
+    x1, y1 = (event.x-1),  (event.y-1)
+    x2, y2 = (event.x+1), (event.y+1)
+    canvas.create_oval(x1,y1,x2,y2, fill=python_green)
+
 # Function Definitions
 # (WIP) Clean the HMI if user decides to switch input type
 def reset_HMI():
@@ -154,6 +161,10 @@ canvas_width = 1000
 canvas_height = 250
 canvas = Canvas(hmi, width=canvas_width, height=canvas_height)
 canvas.pack(expand=YES, fill=BOTH)
+
+canvas.bind("<B1-Motion>", paint)
+message = Label(hmi, text = "Press and Drag mouse to draw")
+message.pack(side=BOTTOM)
 
 # Initiating program
 upload_photo()
