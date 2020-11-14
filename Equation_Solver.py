@@ -12,6 +12,7 @@
 #THIS IS A TEST
 
 # Libraries
+import operator
 import cv2
 import os
 import numpy
